@@ -1,4 +1,4 @@
-create table if not exists contacts (
+create table contacts (
   id serial primary key,
   name text,
   phone text
